@@ -5,7 +5,7 @@ def print_board(board):
 
 def check_winner(board):
     for row in board:
-        if row[0] == row[1] == row[2] != ' ':
+        if row[0] == row[1] == row[2] != ' ':kk kmjmj
             return row[0]
     
     for col in range(3):
